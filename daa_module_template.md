@@ -1,5 +1,5 @@
 # Module title
-(Should match programme title)
+(Module title should match title given in programme title)
 
 ## Introduction
 
