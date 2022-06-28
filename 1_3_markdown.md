@@ -1,12 +1,23 @@
+---
+layout: default
+title: "3. Markdown"
+rank: 3
+---
+
 # Markdown
 ## Introduction
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links.
 
-###### Applications
+#### Applications
 * [MacDown](https://macdown.uranusjr.com) (editor for MacOS)
 * [ghostwriter](https://wereturtle.github.io/ghostwriter/) (editor for Windows)
 * [Atom](https://atom.io) - a versatile source code editor with built-in Git
 * [Visual Studio Code](https://code.visualstudio.com) - a versatile source code editor with built-in Git
+
+#### Resources
+
+* [The Markdown Guide](https://www.markdownguide.org)
+* 
 
 ## Tasks
 * [Create a Markdown file](#task1)

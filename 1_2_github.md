@@ -1,3 +1,9 @@
+---
+layout: default
+title: "2. GitHub"
+rank: 2
+---
+
 # GitHub
 ## Introduction
 [GitHub](github.com) is an online hosting service for software development and version control, built around [Git](https://git-scm.com), a free and open-source distributed version control system.
