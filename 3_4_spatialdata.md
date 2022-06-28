@@ -1,3 +1,9 @@
+---
+layout: default
+title: "4. Spatial data"
+rank: 16
+---
+
 # Spatial data
 (Module title should match title given in programme title)
 
