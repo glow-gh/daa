@@ -8,7 +8,10 @@ rank: 2
 ## Introduction
 [GitHub](github.com) is an online hosting service for software development and version control, built around [Git](https://git-scm.com), a free and open-source distributed version control system.
 
-The good thing about GitHub is that provides you with an online and highly versatile platform for creating, storing, sharing, and publishing text and data. So, to keep all of the files and scripts that you will be producing during the **Digital Applications in Assyriology Nordic Summer School** in one easily accessible place, we thought it best to start out by introducing you to GitHub.
+The good thing about [GitHub](github.com) is that provides you with an online and highly versatile platform for creating, storing, sharing, and publishing text and data. So, to keep all of the files and scripts that you will be producing during the [Digital Applications in Assyriology Nordic Summer School](./index.md) in one easily accessible place, we thought it best to start out by introducing you to [GitHub](github.com).
+
+## Aims
+With a [GitHub](github.com) user account, you will be able to store and publish virtually any type of file from a remote location, while being able at the same time to create, edit, and upload files from a local work station with detailed version control. This means that you will also be able to restore previous versions of data files if anything goes wrong, and that you will be able to share data with other users on [GitHub](github.com) - and make use of theirs too!
 
 This class will take you through the following processes:
 
@@ -17,8 +20,11 @@ This class will take you through the following processes:
 * [Clone a repository](#task3)
 * [Create and push a file to GitHub](#task4)
 
-###### Applications
+#### Applications
 * [GitHub Desktop](https://desktop.github.com) - a desktop client application maintained by GitHub
+
+#### Resources
+* 
 
 ## Tasks
 ### <a id="task1">Create a personal GitHub account</a>
@@ -81,6 +87,5 @@ To update the online version of the file with these modifications, let us go thr
 
 1. There
 
-```
-This is a piece of code
-```
+## Further reading
+* 
