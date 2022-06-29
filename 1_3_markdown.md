@@ -6,10 +6,10 @@ rank: 3
 
 # Markdown
 ## Introduction
-[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links. Bundles of Markdown files can also be made to serve as individual pages to a public webpage, for example by using GitHub Pages to publish Markdown files from a [GitHub](github.com) repository.
+[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links. Markdown files can also be made to build individual pages to a public webpage, for example by using GitHub Pages to publish Markdown files from a [GitHub](github.com) repository.
 
 ## Aims
-Knowing how to create and set up Markdown files will provide . Markdown files are widely used in blogging and for online documentation, especially on [GitHub](github.com)
+As such, knowing how to create and set up Markdown files will provide you with a versatile plain text format able to include text, links, and basic visualisations that can be deployed in your personal workflow and online. Markdown files are widely used in blogging and for online documentation, especially on [GitHub](github.com)
 
 #### Applications
 * [MacDown](https://macdown.uranusjr.com) (editor for MacOS)
@@ -22,13 +22,16 @@ Knowing how to create and set up Markdown files will provide . Markdown files ar
 * 
 
 ## Tasks
+* [Set up and prepare Virtual Studio Code IDE](#vscode)
 * [Create a Markdown file](#task1)
 * [Understand Markdown text formatting](#task2)
 * [Create anchors and hyperlinks](#task3)
 * [Commit a Markdown document to GitHub](#task4)
 * [Publish a Markdown document with GitHub Pages](#task5)
 
-Before starting on the tasks just listed, we will need to equip you with a text editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files in cloned repositories locally, but it cannot provide you with an environment for creating and editing files.
+### <a id="vscode">Set up and prepare Virtual Studio Code IDE</a>
+
+Before starting on the tasks just listed, we will need to equip you with a text and source code editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files with Git version control in cloned repositories locally, but it cannot provide you with an environment for creating and editing files.
 
 For this, we will use [Visual Studio Code](https://code.visualstudio.com), also commonly referred to as VS Code. VS Code is a type of [integrated developer environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) software that combines a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) with directory management and embedded Git. Though produced by Microsoft, VS Code is free and open-source, and available for Windows, MacOS, and Linux.
 

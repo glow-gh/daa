@@ -5,6 +5,8 @@ rank: 2
 ---
 
 # GitHub
+This module will introduce you to [GitHub](github.com) and the use of the distributed version control coding language Git. The aim is to provide you with the skills to manage and monitor data and text files for research in an online multi-user environment, and to give you some experience in the basics of version control for keeping track of files.
+
 ## Introduction
 [GitHub](github.com) is an online hosting service for software development and version control, built around [Git](https://git-scm.com), a free and open-source distributed version control system.
 
@@ -78,12 +80,13 @@ Because **GitHub Desktop** is not a text or code editor, but a file management a
 13. Save and close the text editor.
 
 ### Create a commit to GitHub
-
 What you have done now is to add changes to a file which is part of a cloned GitHub repository. This means that Git has logged these changes on your local drive. It also means that you now have two different versions of the **README.md**; one in your online GitHub repository, another on your local drive. To merge the changes on your local drive with the version online, you will now need to make a **commit**. A **commit** pushes the file version stored on your local drive to the online repository, thus updating the online **master** version to correspond to your local version.
 
 If you return to the **GitHub Desktop** interface, you will see that the **README.md** has appeared in the left-hand pane and is marked with a yellow square tag. The yellow square tag indicates that the file has been modified, and in the main pane you can see a summary of the changes constituting these modifications.
 
-To update the online version of the file with these modifications, let us go through the various steps of making a **commit**.
+To update the online version of the file with these modifications, let us go through the various steps of making a **commit**. This may sound overly complicated to start with, but as we will see, there are good reasons for every step of this process.
+
+Whenever 
 
 1. There
 
