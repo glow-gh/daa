@@ -6,12 +6,14 @@ rank: 3
 
 # Markdown
 ## Introduction
-[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links.
+[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links. Bundles of Markdown files can also be made to serve as individual pages to a public webpage, for example by using GitHub Pages to publish Markdown files from a [GitHub](github.com) repository.
+
+## Aims
+Knowing how to create and set up Markdown files will provide . Markdown files are widely used in blogging and for online documentation, especially on [GitHub](github.com)
 
 #### Applications
 * [MacDown](https://macdown.uranusjr.com) (editor for MacOS)
 * [ghostwriter](https://wereturtle.github.io/ghostwriter/) (editor for Windows)
-* [Atom](https://atom.io) - a versatile source code editor with built-in Git
 * [Visual Studio Code](https://code.visualstudio.com) - a versatile source code editor with built-in Git
 
 #### Resources
@@ -23,13 +25,16 @@ rank: 3
 * [Create a Markdown file](#task1)
 * [Understand Markdown text formatting](#task2)
 * [Create anchors and hyperlinks](#task3)
-*
+* [Commit a Markdown document to GitHub](#task4)
+* [Publish a Markdown document with GitHub Pages](#task5)
 
-Before starting on the tasks just listed, we will need to equip you with a text editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), **GitHub Desktop** is excellent for managing cloned repositories locally, but cannot provide you with an environment for editing files.
+Before starting on the tasks just listed, we will need to equip you with a text editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files in cloned repositories locally, but it cannot provide you with an environment for creating and editing files.
 
-You will need to download and install [Visual Studio Code](https://code.visualstudio.com). Note that the application is free, but will require you to set up a Microsoft account (if you do not already have one).
+For this, we will use [Visual Studio Code](https://code.visualstudio.com), also commonly referred to as VS Code. VS Code is a type of [integrated developer environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) software that combines a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) with directory management and embedded Git. Though produced by Microsoft, VS Code is free and open-source, and available for Windows, MacOS, and Linux.
 
-In order to connect VS Code with your GitHub user profile, you will now need to download the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/editor/github) extension 
+First, you will need to download and install [Visual Studio Code](https://code.visualstudio.com). Note that the application is free, but will require you to set up a Microsoft account (if you do not already have one).
+
+In order to connect VS Code with your GitHub user profile, you will now need to download the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/editor/github) extension.
 
 ### <a id="task1">Create a Markdown file</a>
 A Markdown file uses the file extension **.md**.
