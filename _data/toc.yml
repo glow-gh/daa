@@ -1,0 +1,74 @@
+toc:
+  - title: Monday
+    url: monday.html
+    subfolderitems:
+      - page: 1. Introduction
+        url: 1_1_introduction.html
+      - page: 2. GitHub
+        url: 1_2_github.html
+      - page: 3. Markdown
+        url: 1_3_markdown.html
+      - page: 4. Data Collection
+        url: 1_4_data_collection.html
+      - page: 5. Data Cleaning
+        url: 1_5_data_cleaning.html
+      - page: 6. Regex
+        url: 1_6_regex.html
+  - title: Tuesday
+    url: tuesday.html
+    subfolderitems:
+      - page: 1. Python and R
+        url: 2_1_pythonr.html
+      - page: 2. Python and R
+        url: 2_2_pythonr.html
+      - page: 3. Database management
+        url: 2_3_database_management.html
+      - page: 4. Spreadsheets
+        url: 2_4_spreadsheets.html
+      - page: 5. MySQL
+        url: 2_5_mysql.html
+      - page: 6. MySQL
+        url: 2_6_mysql.html
+  - title: Wednesday
+    url: wednesday.html
+    subfolderitems:
+      - page: 1. Data Visualisation
+        url: 3_1_data_visualisation.html
+      - page: 2. Data Visualisation
+        url: 3_2_data_visualisation.html
+      - page: 3. Data Visualisation
+        url: 3_3_data_visualisation.html
+      - page: 4. Spatial Data
+        url: 3_4_spatial_data
+      - page: 5. QGIS
+        url: 3_5_qgis.html
+      - page: 6. QGIS
+        url: 3_6_qgis.html
+  - title: Thursday
+    url: thursday.html
+    subfolderitems:
+      - page: 1. Social Network Analysis
+        url: 4_1_sna.html
+      - page: 2. Social Network Analysis
+        url: 4_2_sna.html
+      - page: 3. Social Network Analysis
+        url: 4_3_sna.html
+      - page: 4. Lexical Networks
+        url: 4_4_lexical_networks.html
+      - page: 5. Lexical Networks
+        url: 4_5_lexical_networks.html
+      - page: 6. Lexical Networks
+        url: 4_6_lexical_networks.html
+  - title: Friday
+    url: friday.html
+    subfolderitems:
+      - page: 1. Summary
+        url: 5_1_summary.html
+      - page: 2. Assignment Workshop
+        url: 5_2_assignment_workshop.html
+      - page: 3. Assignment Workshop
+        url: 5_3_assignment_workshop.html
+      - page: 4. Evaluation
+        url: 5_4_evaluation.html
+      - page: 5. Concluding discussion
+        url: 5_5_concludiong_discussion.html
