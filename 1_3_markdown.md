@@ -5,6 +5,8 @@ rank: 3
 ---
 
 # Markdown
+This module will introduce you to Markdown, a markup language that will allow you to create simple, yet powerful notepads, documents, and webpages. In addition, you will learn how to create, commit and publish Markdown documents to the web using GitHub Pages.
+
 ## Introduction
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A Markdown file can also be used as a very powerful notepad to keep track of workflows, files and links. Markdown files can also be made to build individual pages to a public webpage, for example by using GitHub Pages to publish Markdown files from a [GitHub](github.com) repository.
 
