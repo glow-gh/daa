@@ -10,7 +10,7 @@ The Digitial Applications in Assyriology Nordic Summer School 2022 is organised 
 
 ## Introduction
 
-Download the test [file from this link](./_files/Rattenborg%20et%20al.%202021.pdf)
+Download the test [file from this link](https://github.com/glow-gh/daa/blob/main/_files/Rattenborg%20et%20al.%202021.pdf)
 
 
 
