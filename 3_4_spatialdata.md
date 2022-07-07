@@ -48,7 +48,7 @@ A GIS stores spatial data in **one** of **four** different types; **point**, **l
 The different structure of **vector** and **raster** graphics means that they are stored in different file formats. Where **vector** grphics can be stored as text, **raster** graphics are typically stored as images. This has an impact on the way in which data can be imported into a GIS. A set of GPS points, for example, will be stored as a list of numbers, in **vector** format. A scan of a print map, on the other hand, will be stored as an image, in **raster** format.
 
 ### Attribute data types
-Next to spatial data types, a GIS will also include attribute data types. These are tabular data that is linked to spatial data records, holding quantitative or qualitative information about vector data types such as **points**, **lines**, and **polygons**.
+Next to spatial data types, a GIS will also include attribute data types. These are tabular data that is linked to spatial data records, holding quantitative or qualitative information about vector data types such as **points**, **lines**, and **polygons**. Attribute data can come in many formats, some of which you probably know. A common and simple file format to use are delimited text files, such as Comma Separated Values, using the file extension .csv, and Tab Separated Values, or .tsv. Attribute data files can also be in the Excel file format .xls or .xlsx, and a large variety of other tabular text data formats.
 
 A GIS orders different spatial data types and files into different **layers** in a single data frame. Overlay of different spatial data sets enables us to select and analyse these data sets based on spatial and associated attribute conditions. If you have ever worked with Adobe Illustrator, Adobe Photoshop, or Adobe InDesign, you will be familiar with this way of ordering data within a single coordinate system. The main difference in functional terms is that a GIS uses a geographical coordinate reference system, making it useful for spatial data. But it is perfectly possible to draw a flower or a sunset in a GIS, should you want to.
 
@@ -79,49 +79,4 @@ To sum up this introduction, let us rehearse a couple of central points about GI
 
 #### Resources
 * [Gregory and Ell 2007]
-
-
-
-
-
-
-
-
-
-
-
-
-
-* [Working with coordinates](#working-with-coordinates)
-* Task 4 (link to subheader in ## Tasks below)
-* [Using Google Earth Pro](#using-google-earth-pro)
-
-
-
-## Tasks
-(Step-by-step listing of tasks to be completed)
-
-### Using Google Earth Pro
-To introduce you to the world of spatial data, let us start with introducing you to an application that you probably know - even if you think you don't; [Google Earth Pro](https://www.google.com/earth).
-
-Google Earth was launched in 
-
-1. Open **Google Earth Pro**
-2. Copy 59.8539, 17.6254 into the **Search** field and click **Search**
-3. 
-
-### Working with remote data
-The native file format for Google Earth is **.kml** or its compressed version, the **.kmz**. KML stands for [Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language), which is an XML notation for storing geographical information. Any data to be viewed in Google Earth Pro must be **.kml** or **.kmz**-format. You can also add image files (for example .jpg or .tiff), but these are subject to different rules that will be discussed later (see [3.5 QGIS](./3_5_qgis.md)).
-
-A couple of very useful spatial data files used in cuneiform studies are available as **.kmz**-files. And when data is available online in a public location, it is usually better to connect to it remotely rather than download a static copy of the dataset. Ideally, loading a dataset remotely from its original location should ensure that you always have the latest version.
-
-To add a remote resource to Google Earth Pro, you will first need to know the exact download location of the **.kml** or **.kmz**-file that you are interested in. We know of two files that you should consider taking a look at:
-
-* The [ANE Placemarks for Google Earth](https://zenodo.org/record/6384044), developed by Olof Pedersén and first released in 2007, contains basic information on c. 2,500 archaeological sites from all over the Middle East. This dataset has recently been made available on [Zenodo](https://zenodo.org), a research data hub run by CERN and the European Research Council. The download URL of the .kmz-file for this index is [https://zenodo.org/record/6384045/files/ANE.kmz?download=1](https://zenodo.org/record/6384045/files/ANE.kmz?download=1)
-
-* The [Cuneiform Inscriptions Geographical Site Index (CIGS)](https://doi.org/10.5281/zenodo.4960710), which contains a comprehensive spatial index of more than 550 locations where cuneiform texts have been found, prepared by researchers of Uppsala University. The link to the **kml**-version of the most recent (v. 1.4, 1 November 2021) release of this resource is: [https://zenodo.org/record/5642899/files/CIGS_v1_4_20211101.kml?download=1](https://zenodo.org/record/5642899/files/CIGS_v1_4_20211101.kml?download=1)
-
-
-###
-
-### Task 4
+* [Conolly and Lake 2006]
