@@ -20,15 +20,15 @@ The first conceptual definition of a GIS was made by British geographer [Roger T
 
 Structuring data according to spatial characteristics has a great many applications - some of which you have no doubt made use of yourself in everyday life. Aspects of GIS are used in [indoor positioning systems](https://en.wikipedia.org/wiki/Indoor_positioning_system) and wayfinding applications, such as [MazeMap](https://www.mazemap.com) used for the Uppsala University campus.
 
-![MazeMap indoor wayfinding tool](./_images/image_3_5_mazemap.png "Path from ground floor entrance of Building 9 to room 9-3042")
+![MazeMap indoor wayfinding tool](./images/image_3_5_mazemap.png "Path from ground floor entrance of Building 9 to room 9-3042")
 
 If you haven't used indoor positioning systems, you most certainly have used [Google Maps](http://maps.google.com) or similar applications for mobile and desktop devices. These services rely on the same basic data elements as the indoor positioning systems, but are true geographic applications, in that they rely on geographical coordinates.
 
-![Google Maps](./_images/image_3_4_googlemaps.png "Google Maps vector graphics view of Uppsala University Engelska Parken campus")
+![Google Maps](./images/image_3_4_googlemaps.png "Google Maps vector graphics view of Uppsala University Engelska Parken campus")
 
 They also typically include the option to switch between two basic types of views; one using [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) (such as the map of Engelska Parken campus above), and one using [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics) (such as the map of Engelska Parken campus below). We will get back to the essential differences between these two types of data in a moment.
 
-![Google Maps](./_images/image_3_4_googlemaps_sat.png "Google Maps raster graphics view of Uppsala University Engelska Parken campus")
+![Google Maps](./images/image_3_4_googlemaps_sat.png "Google Maps raster graphics view of Uppsala University Engelska Parken campus")
 
 If you have used [Google Maps](http://maps.google.com), chances are that you have also encounted [virtual globe](https://en.wikipedia.org/wiki/Virtual_globe) applications such as [Google Earth](https://earth.google.com/web/). This is another type of spatial data application that employs 3D software models to visualise the surface of the Earth (or other planets), typically using satellite imagery.
 
@@ -52,7 +52,7 @@ Next to spatial data types, a GIS will also include attribute data types. These 
 
 A GIS orders different spatial data types and files into different **layers** in a single data frame. Overlay of different spatial data sets enables us to select and analyse these data sets based on spatial and associated attribute conditions. If you have ever worked with Adobe Illustrator, Adobe Photoshop, or Adobe InDesign, you will be familiar with this way of ordering data within a single coordinate system. The main difference in functional terms is that a GIS uses a geographical coordinate reference system, making it useful for spatial data. But it is perfectly possible to draw a flower or a sunset in a GIS, should you want to.
 
-![Layers](./_images/image_3_5_overlay.jpg "Illustration of overlay of different data types and sets in a GIS")
+![Layers](./images/image_3_5_overlay.jpg "Illustration of overlay of different data types and sets in a GIS")
 
 ### Coordinate reference systems
 A [coordinate reference system](https://en.wikipedia.org/wiki/Spatial_reference_system) or a CRS defines the spatial frame of a GIS. All types of spatial data are represented in GIS through **coordinates** (X, Y - and sometimes Z). Coordinates represent a specific location within a defined **coordinate reference system**. If you have coordinates for a given dataset, but do not know the coordinate reference system that they relate to, you will not be able to place the data correctly in space. A GIS can integrate and present data derived from many different **coordinate reference systems**.

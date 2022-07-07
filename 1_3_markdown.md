@@ -4,6 +4,8 @@ title: "3. Markdown"
 rank: 3
 ---
 
+**NOTE: WILL BE EXPANDED TO TWO HOURS BEFORE AND AFTER LUNCH, REMOVE REGEX TO TUESDAY**
+
 # Markdown
 This module will introduce you to Markdown, a markup language that will allow you to create simple, yet powerful notepads, documents, and webpages. In addition, you will learn how to create, commit and publish Markdown documents to the web using GitHub Pages.
 
@@ -43,7 +45,7 @@ To give you a feel for editors able to handle a wider range of file formats, we 
 
 3. When opening VS Code for the first time, you should see the applications starting page, which gives you a list of basic actions to perform. 
 
-![Get Started pane in Virtual Studio Code](./_images/image_1_3_vs_code_start.png "Get Started pane in Virtual Studio Code")
+![Get Started pane in Virtual Studio Code](./images/image_1_3_vs_code_start.png "Get Started pane in Virtual Studio Code")
 
 4. In order to make use of the GitHub repository that you set up in the last course module (see 1.2 GitHub), we should start by cloning your working repository to VS Code, so that you can pull and push files while editing.
 
@@ -127,9 +129,9 @@ _italics_<br>
 * second point
 * third point
 
-[ ] first box
-[ ] second box
-[ ] third box
+- [ ] first box
+- [ ] second box
+- [ ] third box
 ```
 
 \```
@@ -141,9 +143,9 @@ _italics_<br>
 * second point
 * third point
 
-[ ] first box<br>
-[ ] second box<br>
-[ ] third box<br>
+- [ ] first box<br>
+- [ ] second box<br>
+- [ ] third box<br>
 \```
 
 5. It is also possible to make simple tables, using the syntax given below:
