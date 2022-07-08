@@ -1,3 +1,8 @@
+---
+layout: default
+title: "4. Evaluation"
+rank: 22
+---
 # Evaluation
 
 The present module presents the participant evaluation procedure of the [Digital Applications in Assyriology Nordic Summer School 2022](https://glow-gh.github.io/daa/). The evaluation will comprise two elements
