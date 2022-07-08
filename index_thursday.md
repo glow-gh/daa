@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Thursday 4 August"
-rank: 3
+rank: 4
 ---
 ## Modules
 
