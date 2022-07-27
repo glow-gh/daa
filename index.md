@@ -25,7 +25,7 @@ The school extends over five full days, consisting of morning sessions with hand
 ## Teaching staff
 * [Rune Rattenborg](https://katalog.uu.se/profile/?id=N18-1120)
 * [Seraina Nett](https://katalog.uu.se/profile/?id=N17-2334)
-* [Eleanor Bennett]()
+* [Ellie Bennett](https://www2.helsinki.fi/en/researchgroups/ancient-near-eastern-empires/researchers/team-1-digital-humanities-approaches/people#section-78378)
 * [Lena Tambs](https://www2.helsinki.fi/en/people/people-finder/lena-tambs-9428671)
 * [Aleksi Sahala](https://www2.helsinki.fi/en/people/people-finder/aleksi-sahala-9113715)
 * [Stefan Smith](https://www2.helsinki.fi/en/people/people-finder/stefan-smith-9439288)
