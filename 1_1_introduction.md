@@ -21,7 +21,6 @@ We should also make clear that one week is sufficient to provide you with a good
 * [Initial information about written assignment](#initial-information-about-written-assignment)
 
 ### Previous training in digital applications
-<font size=1>**NOTE**: This task should take no more than ten minutes</font>
 
 We will start out by soliciting responses from the participants as to previous training received in the use of digital applications for research. The points below give some examples:
 
@@ -34,15 +33,17 @@ We will start out by soliciting responses from the participants as to previous t
 ### A review of the course programme
 We will then review the course programme for the week, and offer some brief comments on the structure and intended learning progression underlying the arrangement of individual course modules.
 
-* Questions
-* Observations
+* Course modules
+* Application drop-in
+* Afternoon talks
 
 ### What do you expect to gain from the course programme
-<font size=1>**NOTE**: This task should take no more than ten minutes</font>
 
-As this is the first time that we are organising this summer school, we will be interested in your input throughout the duration of the programme. How do you find the selection of applications introduced, what is good, what is missing, what could be improved?
+As this is the first time that we are organising this summer school, we will be interested in your input throughout the duration of the programme.
 
-* Initially, we invite responses as to what you expect to gain from the course programme
+*  How do you find the selection of applications introduced?
+* Are there any particular applications or approaches that you are interested in, and for any particular reasons?
+* Are there any particular applications or approaches that you find missing or would like to see added?
 
 ### Initial information about written assignment
 
