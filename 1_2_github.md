@@ -19,8 +19,8 @@ This class will take you through the following processes:
 
 * [Create a personal GitHub account](#create-a-personal-github-account)
 * [Set up a GitHub repository](#set-up-a-github-repository)
-* [Clone a repository](#task3)
-* [Create and push a file to GitHub](#task4)
+* [Clone a repository](#clone-a-github-repository)
+* [Create and push a file to GitHub](#create-a-commit-to-github)
 
 #### Applications
 * [GitHub Desktop](https://desktop.github.com) - a desktop client application maintained by GitHub
@@ -58,7 +58,7 @@ Now, let us proceed to create a file directory, or a **repository**, as it is ca
 
 You should now have a repository named **daa** associated with your GitHub account. Note that this also will have received a dedicated URL, namely **https://github.com/yourusername/daa/**. 
 
-### Clone a GitHub repository to your local drive
+### Clone a GitHub repository
 The point about a distributed version control system such as GitHub is that you can store files with an online hosting service _and_ work on those locally, either individually or as a group.
 
 This is done by **cloning** a repository on your online GitHub user profile to your local drive. To work with cloned GitHub repositories on your local drive, you will usually need a GitHub desktop client. For this task, we will use [GitHub Desktop](https://desktop.github.com), but later today, you will also be introduced to code editors with built-in Git capability (see [1.3 Markdown](./1_3_markdown.md)). A good source code editor can essentially speaking perform most of the tasks that you will need a desktop client such as [GitHub Desktop](https://desktop.github.com) for, _and_ allow you to add, delete, and edit files in your cloned repositories at the same time.
@@ -115,6 +115,23 @@ In order to forward these changes to the version of the file stored online on yo
 ### Branches in GitHub repositories
 
 As a final note, we have not dealt with **branches** of a GitHub repository in the present module. The core version of a repository on GitHub is called **main**, and what we have done so far has been to pull and push commits directly to and from the **main** branch. When becoming more accostumed to the GitHub workflow, and especially when multiple users are working on the same repository, it is not advisable to constantly make changes directly to the **main** branch of a repository, as this is liable to cause inconsistencies between the changes that you and others make. 
+
+#### Creating branches and forks
+
+Instead, when you want to work on developing a feature or document without having to include changes that other users are making on the main version of the repository, it is advisable to create a new **branch** from the main **branch** and work on this branch instead.
+
+Note that you can only create a **branch** from a repository if you have **write access** to this repository. 
+
+You can read a lot more about this under the GitHub Docs [Working with branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) entry.
+
+If you do not have **write access**, the corresponding action is called a **fork**. A fork can be performed on any public GitHub repository by any GitHub user, and is designed to allow users to further develop and augment code and documentation prepared by other users or projects. A **fork** is then essentially a **clone** of a GitHub repository to which you yourself do not have access rights.
+
+You can read more about forks under the GitHub Docs [About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks) entry.
+
+#### Merging
+In order to integrate your work on a separate branch with the main branch of the repository, you will subsequently need to create a **pull request** (typically referred to as a **PR** in GitHub jargon). Once accepted by the repository manager (yourself or someone else with editorial access), changes in the _head_ branch (the one you have been working on) are included in the _base_ or _main_ branch (the primary repository branch), and the _head_ branch can be deleted.
+
+More information about pull requests and merging are available from the GitHub Doc [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) entry.
 
 ## Summary
 To conclude, this module has taught you to set up and use a GitHub account and repository for local editing and online storing of files, and how to maintain version control using Git to oversee changes in this files. When thinking about it, this setup can be used to work with a wide range of materials in a flexible way while maintaing the ability to backtrack and correct errors in previous edits. A GitHub account and repository will also enable you to prepare and publish projects online using **Markdown** and **GitHub Pages**, something that we will cover in the next module.
