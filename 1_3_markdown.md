@@ -10,7 +10,7 @@ This module will introduce you to [Markdown](https://daringfireball.net/projects
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A [Markdown]([Markdown](https://daringfireball.net/projects/markdown/)) file can also be used as a very powerful notepad to keep track of workflows, files and links. Markdown files can also be made to build individual pages to a public webpage, for example by using [GitHub Pages](https://pages.github.com) to publish Markdown files from a [GitHub](github.com) repository.
 
 ## Aims
-Knowing how to create and set up Markdown files will provide you with a versatile plain text format able to include text, links, and basic visualisations that can be deployed in your personal workflow and online. Markdown files are widely used in blogging and for online documentation, especially on [GitHub](github.com).
+Knowing how to create and set up Markdown files will provide you with a versatile plain text format able to include text, links, and basic visualisations that can be deployed in your personal workflow and online. Markdown files are widely used in blogging and for online documentation, especially on [GitHub](github.com). As such, they can combine note-taking and assignment writing with a light-weight format for publishing content to the web.
 
 #### Applications
 * [MacDown](https://macdown.uranusjr.com) (editor for MacOS)
@@ -31,7 +31,7 @@ Knowing how to create and set up Markdown files will provide you with a versatil
 * [Publish a Markdown document with GitHub Pages](#task5)
 
 ### Set up and prepare Virtual Studio Code IDE
-Before starting on the tasks just listed, we will need to equip you with a text and source code editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files with Git version control in cloned repositories locally, but it cannot provide you with an environment for creating and editing files. There are plenty of editors specifically for Markdwon available for free online, including e.g. applications such as [MacDown](https://macdown.uranusjr.com) (for MacOS) and * [ghostwriter](https://wereturtle.github.io/ghostwriter/) (for Windows). These are lightweigth applications that can be used to create and edit Markdown files, which you will then need GitHub Desktop to commit and push to an online repository.
+Before starting on the tasks just listed, we will need to equip you with a text and source code editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files with Git version control in cloned repositories locally, but it cannot provide you with an environment for creating and editing files. There are plenty of editors specifically for Markdwon available for free online, including e.g. applications such as [MacDown](https://macdown.uranusjr.com) (for MacOS) and [ghostwriter](https://wereturtle.github.io/ghostwriter/) (for Windows). These are lightweigth applications that can be used to create and edit Markdown files, which you will then need GitHub Desktop to commit and push to an online repository.
 
 To give you a feel for editors able to handle a wider range of file formats, we will use [Visual Studio Code](https://code.visualstudio.com), also commonly referred to as VS Code. VS Code is a type of [integrated developer environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) software that combines a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) with directory management and embedded Git. Though produced by Microsoft, VS Code is free and open-source, and available for Windows, MacOS, and Linux.
 
@@ -346,11 +346,18 @@ rank: 1
 
 12. Finally, all of the revised and newly created files need to be committed and pushed to your GitHub repository.
 
+## Summary
+These modules have taught you how to set up and use a dedicated IDE (integrated developer environment) for working with source code, directory files, and Git. 
+
+Note that the VS Code application introduced in this module can actually work with a very wide range of files, including Markdown, Python, R, SQL, and many others. Depending on your needs and preferences you may want to try VS Code with other scripts, instead of using dedicated IDEs for specific coding environments. Note, however, that VS Code is not always the best choice, depending on the script or file format in question.
+
+You should now have acquired a good understanding of how Markdown markup language is structured and used, 
+
+Finally, you have been introduced to how Markdown files can be used in combination with a GitHub repository, and how these may be used to prepare content for web publication through GitHub Pages.
+
 
 ## Further reading
 * [On Jekyll navigation](https://jekyllrb.com/tutorials/navigation/)
-
-**TO BE COMPLETED**
 
 
 
