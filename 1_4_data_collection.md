@@ -22,7 +22,9 @@ In this session, we will discuss different types of data that we encounter in th
 ## Resources
 
 CDLI Data Dumps (GitHub): https://github.com/cdli-gh/data
+
 Getting ORACC project JSON files (Niek Veldhuis): https://github.com/niekveldhuis/ORACC-JSON
+
 Python Tools for Working with ORACC: https://github.com/oracc/pyoracc
 
 ## Literature
