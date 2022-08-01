@@ -21,5 +21,5 @@ You may also install the software or ask for support during the 'application dro
 
 ## Resources
 * Network analysts use many technical terms, that can be both overwelming and confusing as one first approaches the methods. To keep track of the concepts, you might find glossaries, like this [list of technical terms](./_files/Tambs_na_glossary.pdf), handy.
-* If you want to learn more, see [further readings](#furtherreadings) on the SNA pages.
+* If you want to learn more about SNA, see [further readings](#furtherreadings) on the SNA pages.
 * For further reading about LNA, see the [further reading section](#furtherreadingsLNA) on the LNA pages.
