@@ -15,7 +15,11 @@ rank: 4
 ## Applications
 * [_Gephi_](https://gephi.org/) - network analytical software
 
+In preparation of the course, please install the latest version of Gephi on the computer you will bring to the summer school. To ensure that it works, try starting the program. From the welcome window, open the 'Les Miserables.gexf' sample and press 'ok' in the import report. If you see a colourful network with different sized nodes (dots) and edges (lines), all should be fine. If not, check whether you are in the 'overview' (not 'dta laboratory' or 'preview') tab. If you are, and still don't see it, get in touch with Lena (lena.tambs@helsinki.fi) or Ellie (eleanor.bennett@helsinki.fi), so we can try to figure out what went wrong.
+
+You may also install the software or ask for support during the 'application dropin' slot on Wednesday 03.08.22.
+
 ## Resources
 * Network analysts use many technical terms, that can be both overwelming and confusing as one first approaches the methods. To keep track of the concepts, you might find glossaries, like this [list of technical terms](./_files/Tambs_na_glossary.pdf), handy.
-* See also [further readings](#furtherreadings), if you want to learn more.
+* If you want to learn more about SNA, see [further readings](#furtherreadings) on the SNA pages.
 * For further reading about LNA, see the [further reading section](#furtherreadingsLNA) on the LNA pages.
