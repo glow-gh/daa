@@ -20,8 +20,9 @@ Knowing how to create and set up Markdown files will provide you with a versatil
 * [Getting Started with Markdwon](https://programminghistorian.org/en/lessons/getting-started-with-markdown)
 
 ## Tasks
-* [Commit a Markdown document to GitHub](#task4)
-* [Publish a Markdown document with GitHub Pages](#task5)
+* [Commit a Markdown document to GitHub](#commit-a-markdown-document-to-github)
+* [Publish a Markdown document with GitHub Pages](#publish-a-markdown-document-with-github-pages)
+* [Adding an index page](#adding-an-index-page)
 
 ### Commit a Markdown document to GitHub
 As you have been adding content to your Markdown document, you may have noticed that a counter has switched on on the **Source Control** menu icon in the left-hand **Activity Bar**. This indicates that pending changes to a given number of documents have been made.
@@ -92,6 +93,9 @@ rank: 1
 
 12. Finally, all of the revised and newly created files need to be committed and pushed to your GitHub repository.
 13. Go to the corresponding GitHub Pages address of the repository. The URL can be found under **Settings** tab of the GitHub repository.
+
+### Adding an index page
+The home- or landing page of your GitHub Pages webpage will show the contents of the repository README.md by default. You would prefer to have another Markdown file here, as a README.md is not intended as a webpage introduction text. What you should do is create and add to the same directory as your **first_markdown.md** another Markdown file named **index.md**. This will then be automatically inserted as the landing page text of the webpage.
 
 ## Summary
 This module has taught you how to commit Markdown documents to GitHub and how to build a small webpage from these files, using YAML and HTML-files to structure webpage content. A GitHub Pages webpage can be used to publish assignments or small projects and to share information or ideas with others. This module has not offered a more in-depth introduction to .yml or .html that is needed to structure a GitHub webpage, but you are welcome to contact Rune Rattenborg ([rune.rattenborg@lingfil.uu.se](mailto:rune.rattenborg@lingfil.uu.se)) if you want input on how to alter the structure or add further elements.
