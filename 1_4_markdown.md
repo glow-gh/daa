@@ -64,7 +64,7 @@ show_downloads: false
 
 6. Create a folder named **_data** in the same directory
 
-7. Create a file named **_toc.yml** in this directory (**daa/_data**), and save the below code to this file:
+7. Create a file named **toc.yml** in this directory (**daa/_data**), and save the below code to this file:
 
 ```
 toc:
@@ -72,11 +72,13 @@ toc:
   url: first_markdown.html
 ```
 
+If you want to add further items to this list, simply repeat the latter two lines below. Note that YAML syntax is notoriously sensible to typing errors, so one open space too many or too few will break the script.
+
 8. Create a folder named **_layouts** in the **daa** directory
 
-9. Add the file named **default.html**  to this directory (**daa/_layouts**). This file involves a more complex .html-script. You are welcome to contact module teachers for input on how to change it if desired.
+9. Add the file named [default.html](./_files/default.html) (available at [glow-gh/daa/_files](https://github.com/glow-gh/daa/tree/main/_files/default.html) to your (**daa/_layouts**) folder. This file involves a more complex .html-script. You are welcome to contact module teachers for input on how to change it if desired.
 
-10. Add the file named **post.html**  in this directory (**daa/_layouts**). This file involves a more complex .html-script. You are welcome to contact module teachers for input on how to change it if desired.
+10. Add the file named [post.html](./_files/default.html) (available at [glow-gh/daa/_files](https://github.com/glow-gh/daa/tree/main/_files/post.html) to your (**daa/_layouts**) folder. This file involves a more complex .html-script. You are welcome to contact module teachers for input on how to change it if desired.
 
 11. Lastly, we will need to add a header to **first-markdown.md**, so that the YAML files know what and where to place the various elements in the file on GitHub Pages. A YAML header is inserted at the very top of a Markdown document (l. 1). Here, insert the following:
 
