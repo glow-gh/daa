@@ -91,15 +91,10 @@ rank: 1
 ```
 
 12. Finally, all of the revised and newly created files need to be committed and pushed to your GitHub repository.
+13. Go to the corresponding GitHub Pages address of the repository. The URL can be found under **Settings** tab of the GitHub repository.
 
 ## Summary
-These modules have taught you how to set up and use a dedicated IDE (integrated developer environment) for working with source code, directory files, and Git. 
-
-Note that the VS Code application introduced in this module can actually work with a very wide range of files, including Markdown, Python, R, SQL, and many others. Depending on your needs and preferences you may want to try VS Code with other scripts, instead of using dedicated IDEs for specific coding environments. Note, however, that VS Code is not always the best choice, depending on the script or file format in question.
-
-You should now have acquired a good understanding of how Markdown markup language is structured and used, 
-
-Finally, you have been introduced to how Markdown files can be used in combination with a GitHub repository, and how these may be used to prepare content for web publication through GitHub Pages.
+This module has taught you how to commit Markdown documents to GitHub and how to build a small webpage from these files, using YAML and HTML-files to structure webpage content. A GitHub Pages webpage can be used to publish assignments or small projects and to share information or ideas with others. This module has not offered a more in-depth introduction to .yml or .html that is needed to structure a GitHub webpage, but you are welcome to contact Rune Rattenborg ([rune.rattenborg@lingfil.uu.se](mailto:rune.rattenborg@lingfil.uu.se)) if you want input on how to alter the structure or add further elements.
 
 
 ## Further reading
