@@ -17,5 +17,8 @@ rank: 1
 * [MacDown](https://macdown.uranusjr.com) (editor for MacOS)
 * [ghostwriter](https://wereturtle.github.io/ghostwriter/) (editor for Windows)
 * [Visual Studio Code](https://code.visualstudio.com) - a versatile source code editor with embedded Git
+* [OpenRefine](https://openrefine.org/download.html#) - a powerful tool for inspecting and cleaning tabular data
 
-## Resources
+## Staff
+* [Rune Rattenborg](https://katalog.uu.se/profile/?id=N18-1120)
+* [Seraina Nett](https://katalog.uu.se/profile/?id=N17-2334)
