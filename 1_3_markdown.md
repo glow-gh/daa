@@ -4,7 +4,7 @@ title: "3. Markdown"
 rank: 3
 ---
 # Markdown
-This module will introduce you to [Markdown](https://daringfireball.net/projects/markdown/), a markup language that will allow you to create simple, yet powerful notepads, documents, and webpages. In addition, you will learn how to create, commit and publish [Markdown](https://daringfireball.net/projects/markdown/) documents to the web using [GitHub Pages](https://pages.github.com).
+This and the following module (see [1.4 Markdown](./1_4_markdown.md)) will introduce you to [Markdown](https://daringfireball.net/projects/markdown/), a markup language that will allow you to create simple, yet powerful notepads, documents, and webpages. In addition, you will learn how to create, commit and publish [Markdown](https://daringfireball.net/projects/markdown/) documents to the web using [GitHub Pages](https://pages.github.com).
 
 ## Introduction
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language for creating formatted text for online use. A [Markdown]([Markdown](https://daringfireball.net/projects/markdown/)) file can also be used as a very powerful notepad to keep track of workflows, files and links. Markdown files can also be made to build individual pages to a public webpage, for example by using [GitHub Pages](https://pages.github.com) to publish Markdown files from a [GitHub](github.com) repository.
@@ -27,8 +27,6 @@ Knowing how to create and set up Markdown files will provide you with a versatil
 * [Create a Markdown file](#create-a-markdown-file)
 * [Understand Markdown text formatting](#understanding-markdown-text-formatting)
 * [Create anchors and hyperlinks](#create-anchors-and-hyperlinks)
-* [Commit a Markdown document to GitHub](#task4)
-* [Publish a Markdown document with GitHub Pages](#task5)
 
 ### Set up and prepare Virtual Studio Code IDE
 Before starting on the tasks just listed, we will need to equip you with a text and source code editor capable of pulling, managing and pushing files to your GitHub repository _and_ editing a wide variety of file formats. As noted in the previous section [(1.2 GitHub)](./1_2_github.md), [GitHub Desktop](https://desktop.github.com) is excellent for managing files with Git version control in cloned repositories locally, but it cannot provide you with an environment for creating and editing files. There are plenty of editors specifically for Markdwon available for free online, including e.g. applications such as [MacDown](https://macdown.uranusjr.com) (for MacOS) and [ghostwriter](https://wereturtle.github.io/ghostwriter/) (for Windows). These are lightweigth applications that can be used to create and edit Markdown files, which you will then need GitHub Desktop to commit and push to an online repository.
@@ -196,170 +194,6 @@ The line that you just wrote should now contain a link to the header [An Example
 
 Finally, you can also create a link to any file stored on the local drive, allowing you to open files directly from a Markdown document. This, of course, requires that you know the complete file path of the document that you want to link to, and that you are opening the link from a Markdown document stored on the local drive. The format is otherwise the same as for hyperlinks, namely the name of the link in square brackets [], and the file path following immediately after in parentheses ().
 
-### Commit a Markdown document to GitHub
-As you have been adding content to your Markdown document, you may have noticed that a counter has switched on on the **Source Control** menu icon in the left-hand **Activity Bar**. This indicates that pending changes to a given number of documents have been made.
-
-In order to stage and commit these changes to GitHub from VS Code, we follow the same essential steps as demonstrated for GitHub Desktop in the previous module (see [1.2 GitHub](./1_2_github.md)).
-
-1. Select the **Source Control** pane in the left-hand **Activity Bar**.
-
-2. First locate the appropriate repository. This will be easy enough as you should only have one repository open (namely the **daa** repository).
-
-3. From the **Changes** expandable list, select **first_markdown.md**, right-click and select **Stage Changes** (or simply press the '+'-symbol on the right)
-
-4. You should now see a second expandable list appear, named **Staged Changes**. As with GitHub Desktop, this means that the changes has been staged, but not commited. If you select the file in the **Staged Changes** list, the editor viewer will open an index pane showing changes to the file.
-
-5. To commit staged changes, click the check mark next to the name of the repository and enter a commit message.
-
-6. To push the committed changes to GitHub, click the **More Actions...** button and select **Push**. 
-
-7. Go to your GitHub account and check that the file has been added with the approproate commit message.
-
-### Publish a Markdown document with GitHub Pages
-Our last task will be to learn the basics of publishing Markdown documents to the World Wide Web using [GitHub Pages](https://pages.github.com). To do this, we will first need to confirm the necessary settings on the GitHub repository and select a theme: 
-
-1. Check that the GitHub repository that we wish to publish from is set to **Public**
-2. Check that **GitHub Pages** has been enabled for the repository in question
-3. Select a theme. For the present exercise, we will use the **Minimal** theme.
-
-To publish Markdown files on [GitHub Pages](https://pages.github.com), we need to introduce a couple of files to control the appearance. A common file format used to control appearance for text content written in Markdown is **YAML**, with the file extension **.yml**.
-
-4. Create a new file named **_config.yml** and make sure that it is stored in the same directory as **first_markdown.md**.
-
-5. Save the below code to this file:
-
-```
-theme: jekyll-theme-minimal
-title:  [Your name] - DAA 2022
-description: My GitHub Page
-show_downloads: false
-```
-
-6. Create a folder named **_data** in the same directory
-
-7. Create a file named **_toc.yml** in this directory (**daa/_data**), and save the below code to this file:
-
-```
-docs_list_title: List of contents
-docs:
-
-- title: First Markdown
-  url: first_markdown.html
-```
-
-8. Create a folder named **_layouts** in the **daa** directory
-
-9. Create a file named **default.html**  in this directory (**daa/_layouts**), and save the below code to this file:
-
-```
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View this repository on GitHub<small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-        <h2>{{ site.data.toc.docs_list_title }}</h2>
-<ul>
-   {% for item in site.data.docs_list_title.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
-```
-
-10. Create a file named **post.html**  in this directory (**daa/_layouts**), and save the below code to this file:
-
-```
----
-layout: default
----
-
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
-
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-```
-
-11. Lastly, we will need to add a header to **first-markdown.md**, so that the YAML files know what and where to place the various elements in the file on GitHub Pages. A YAML header is inserted at the very top of a Markdown document (l. 1). Here, insert the following:
-
-```
----
-layout: default
-title: "First Markdown""
-rank: 1
----
-```
-
-12. Finally, all of the revised and newly created files need to be committed and pushed to your GitHub repository.
-
 ## Summary
-These modules have taught you how to set up and use a dedicated IDE (integrated developer environment) for working with source code, directory files, and Git. 
-
-Note that the VS Code application introduced in this module can actually work with a very wide range of files, including Markdown, Python, R, SQL, and many others. Depending on your needs and preferences you may want to try VS Code with other scripts, instead of using dedicated IDEs for specific coding environments. Note, however, that VS Code is not always the best choice, depending on the script or file format in question.
-
-You should now have acquired a good understanding of how Markdown markup language is structured and used, 
-
-Finally, you have been introduced to how Markdown files can be used in combination with a GitHub repository, and how these may be used to prepare content for web publication through GitHub Pages.
-
-
-## Further reading
-* [On Jekyll navigation](https://jekyllrb.com/tutorials/navigation/)
-
-
-
-
+To summarise, this module has introduced you to the use of Markdown, a markup language that can help you create simple, yet powerful notepads, documents, and webpages. In addition, we have introduced Virtual Studio Code, an integrated developer environment (IDE) application which can be used for writing source code in a wide range of programming languages, including Git version control and preview functions. In the next module (see [1.4 Markdown](./1_4_markdown.md)), we will see how Markdown documents can be committed to GitHub and used to create simple webpages using GitHub Pages.
 

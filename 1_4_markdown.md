@@ -103,8 +103,8 @@ Finally, you have been introduced to how Markdown files can be used in combinati
 
 
 ## Further reading
-For additional information on setting up YAML files and associated .html-code, please see the below webpage.
-* [On Jekyll navigation](https://jekyllrb.com/tutorials/navigation/)
+* [The Markdown Guide](https://www.markdownguide.org) for copious documentation on Markdown formatting and use with GitHub Pages.
+* [On Jekyll navigation](https://jekyllrb.com/tutorials/navigation/) for additional information on setting up YAML files and associated .html-code, please see the below webpage.
 
 
 
