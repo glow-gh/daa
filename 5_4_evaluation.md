@@ -17,7 +17,7 @@ The initial evaluation will take the form of a round-table discussion with stude
 
 1. Please consider and raise any points about the application and response process May-July 2022. Did you experience any issues in terms of timely information, response from staff or similar?
 
-2. Please consider the course programme as executed during the week 1-5 August 2022. What elements did you particularly like? Where could the programme be improved, practically and in terms of content? Anything in paricular that you would like to see included in future instalments?
+2. Please consider the course programme as executed during the week 1-5 August 2022. What elements did you particularly like? Where could the programme be improved, practically and in terms of content? Anything in particular that you would like to see included in future instalments?
 
 3. What kind of follow-up, if any, would you consider helpful in enabling you to build on the skills that you have acquired during the summer school?
 
