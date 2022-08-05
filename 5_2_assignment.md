@@ -1,3 +1,9 @@
+---
+layout: default
+title: "2. Assignment Workshop"
+rank: 21
+---
+
 # Assignment Workshop
 This module introduces an open workshop for planning your written assignment that concludes the summer school programme, to be prepared and delivered by Friday 12 August. 
 
