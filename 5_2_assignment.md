@@ -22,6 +22,7 @@ The assignment is intended as an exercise in the definition, description, and ev
 * Assignment paper should cover process of data collection, processing, analysis and presentation
 * The assignment can be submitted either as a Word (.docx) and accompanying .pdf, in markup format using Markdown or LaTex, or as a repository on GitHub or a GitHub Pages webpage
 * The deadline is **Friday 12 August 23.59 CET**
+
 ## Example of assignment structure
 You are free to structure the assignment as you like, but a basic template could look like this:
 
