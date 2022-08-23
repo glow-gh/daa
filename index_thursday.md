@@ -15,7 +15,9 @@ rank: 4
 ## Applications
 * [_Gephi_](https://gephi.org/) - network analytical software
 
-In preparation of the course, please install the latest version of Gephi on the computer you will bring to the summer school. To ensure that it works, try starting the program. From the welcome window, open the 'Les Miserables.gexf' sample and press 'ok' in the import report. If you see a colourful network with different sized nodes (dots) and edges (lines), all should be fine. If not, check whether you are in the 'overview' (not 'dta laboratory' or 'preview') tab. If you are, and still don't see it, get in touch with Lena (lena.tambs@helsinki.fi) or Ellie (eleanor.bennett@helsinki.fi), so we can try to figure out what went wrong.
+Please install the latest version of Gephi on the computer you will bring to the summer school.
+
+To ensure that it works, try starting the program. From the welcome window, open the 'Les Miserables.gexf' sample and press 'ok' in the import report. If you see a colourful network with different sized nodes (dots) and edges (lines), all should be fine. If not, check whether you are in the 'overview' (not 'data laboratory' or 'preview') tab. If you are and still don't see the network visualisation, get in touch with Lena (lena.tambs@helsinki.fi) or Ellie (eleanor.bennett@helsinki.fi).
 
 You may also install the software or ask for support during the 'application dropin' slot on Wednesday 03.08.22.
 
