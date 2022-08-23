@@ -22,7 +22,7 @@ The school extends over five full days, consisting of morning sessions with hand
 * using and exploring lexical networks
 * the ability to execute a simple digital humanities research project under supervision
 
-![Digital Applications in Assyriology Nordic Summer School 2022 Programme](./images/daa_2022_programme_.png "Course programme for the Digital Applications in Assyriology Nordic Summer School 2022")
+![Digital Applications in Assyriology Nordic Summer School 2022 Programme](./images/daa_2022_programme.png "Course programme for the Digital Applications in Assyriology Nordic Summer School 2022")
 
 ## Teaching staff
 * [Rune Rattenborg](https://katalog.uu.se/profile/?id=N18-1120)
